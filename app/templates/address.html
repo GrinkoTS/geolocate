@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Tamara" />
+        <meta name="description" content="Поиск адреса по геолокации" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+        <title> Address </title>
+    </head>
+
+    <body>
+        <h3 class="special"> Полный адрес: </h3>
+        <ul>
+            {% for elem in first_address %}
+                <a> <li class="mini_special"> {{elem}} </li> </a>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
