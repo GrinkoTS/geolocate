@@ -5,7 +5,7 @@ Python3, Flask API
 ### Как запустить проект  
 
 Клонировать репозиторий и перейти в него в командной строке:  
-`git clone git@github.com:GrinkoTS/geolocate.git`  
+`git clone https://github.com/GrinkoTS/geolocate.git`  
 `cd geolocate/`  
 
 Создать и активировать виртуальное окружение:  
@@ -18,7 +18,10 @@ Python3, Flask API
 
 В файле config.env прописываем свой токен с сайта DaData.
 
-Запускаем приложение и в браузере прописываем url:  
+Запускаем приложение:  
+`python geolocate.py`
+
+Приложение будет доступно по адресу:  
 `http://127.0.0.1:5001`
 
 
